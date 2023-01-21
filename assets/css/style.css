@@ -1,0 +1,89 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html{
+    padding: 0;
+    margin: 0;
+    border: 8px solid white;
+    background: linear-gradient(to top, rgba(black, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffbf7;
+}
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff!important;
+}
+
+.nav-link{
+    color: #ffffff!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:rgb(173, 66, 12);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color:#ffe0f0;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 0.5vh;
+    font-family: 'sans-serif',cursive;
+}
+
+.hero-img{
+    height: 68vh;
+    width: 83%;
+    border-style:solid;
+    border-color: rgb(47, 111, 137);
+    border-radius: 80px;
+
+
+
+
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color:rgb(151, 131, 154);
+    color: #e7abe9!important;
+    transition: 0.5s;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px rgba(145, 92, 182, .4);
+
+}
+
+.bg-light{
+    background-color: rgb(130, 103, 191)!important;
+}
+
+.get-started{
+    background-color: rgb(135, 9, 9)!important;
+    color: #ffffff!important;
+}
+
+
+/* here content css starts here  */
